@@ -1,0 +1,43 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 30rem;
+}
+
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: pink;
+    transition: 3s ease;
+}
+
+a{
+    font-size: 5rem;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+
+.in-beeld{
+    background-color: aqua;
+}
+
+.niet-in-beeld{
+    background-color: pink;
+}
+
+.a-popup{
+    animation-name: popup;
+    animation-duration: 0.8s;
+    animation-fill-mode: backwards;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
